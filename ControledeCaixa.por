@@ -3,7 +3,7 @@ programa {
     real media=0, vendas=0, soma=0
     inteiro quantidadeVendas = -1
     faca{
-      escreva("\nQual o valor da venda\n")
+      escreva("\nDigite o valor da venda ou insira 0 para sair\n")
       leia(vendas)
       soma = vendas + soma
       escreva("\nO total está : ", soma)
